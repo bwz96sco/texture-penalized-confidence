@@ -3,7 +3,7 @@
 Code, trained weights, the frozen configuration and the region lists for the
 letter *Texture-Penalized Confidence for Accepting the Outputs of a
 Landsat-8-Trained Cloud Mask on Sentinel-2* (Bowen Zhang, Pengcheng Luo,
-Hongjun Xie, Genke Yang and Jian Chu, 2026).
+Hongjun Xie, Shujin Jia, Genke Yang and Jian Chu, 2026).
 
 A per-pixel cloud mask trained on Landsat 8 (SPARCS) is applied without
 retraining to Sentinel-2 tiles of CloudSEN12+, and a gate accepts the top 80%
