@@ -62,8 +62,24 @@ The scripts read data under `~/Data/onboard-acceptance`. The frozen records
 keep the absolute paths and commit hashes of the authors' run (paths under
 `/Users/zhangbowen/Data/onboard-acceptance`, commits of the authors' research
 repository, which is not published); to re-run, replace that path prefix with
-the local data directory. Per-tile features and labels are not included;
-`runtime.py` and `truth.py` regenerate them.
+the local data directory.
+
+Per-tile features, labels and decisions are not included. With them in place,
+`check.py` recomputes each population's `results.json` exactly:
+
+- untouched regions: `features.csv` and `labels.csv` in
+  `tasks/texture-s2-confirmation/evidence/`, written by that folder's
+  `runtime.py` and `truth.py`;
+- test split: `features.csv` in `tasks/texture-s2-supplementary/evidence/`,
+  written by that folder's `runtime.py`, and `features-single-1.csv`,
+  `features-ensemble-1.csv` and `decisions.csv` in
+  `tasks/s2-independent-confirmation/evidence/`, written by that folder's
+  `runtime.py`, `truth.py` and `evaluate.py`.
+
+The development steps (`premise-test`, `texture-permutation-premise`,
+`texture-full-diagnostic` and the earlier folders) also read per-tile files
+and raw HYPSO-1 data that are not shipped; their scripts are the code as run,
+and their outputs are the frozen records listed above.
 
 ## Licence
 
