@@ -1,0 +1,20 @@
+{
+ "features": [
+  "q_multiscale"
+ ],
+ "mean": [
+  0.17187315257621466
+ ],
+ "scale": [
+  0.3153001664554616
+ ],
+ "coef": [
+  -0.3154170464598632
+ ],
+ "intercept": -2.01695368103156,
+ "iterations": 9,
+ "population": "all 3,600 source-dev tiles",
+ "n_tiles": 3600,
+ "n_errors": 437,
+ "n_parameters": 2
+}

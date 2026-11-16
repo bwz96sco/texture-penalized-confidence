@@ -1,0 +1,19 @@
+{
+ "seconds": 177.6777404998429,
+ "freeze_sha256": "8bfde43607cfdadc6c38fe1317264df054e85477898412d3ee68a18d0aeaecf7",
+ "n_patches": 1650,
+ "n_tiles": 80850,
+ "members": 5,
+ "torch_threads": 8,
+ "blas_threads": 1,
+ "platform": "macOS-26.6.2-arm64-arm-64bit",
+ "torch": "2.14.1",
+ "imagery_bands_read": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "label_band_requested": false,
+ "raw_labels_read": false
+}

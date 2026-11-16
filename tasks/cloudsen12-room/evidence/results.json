@@ -1,0 +1,51 @@
+{
+ "n_patches": 535,
+ "n_rois": 107,
+ "n_tiles": 26215,
+ "padding_side": [
+  0,
+  0
+ ],
+ "saturated_pixel_share": 0.0,
+ "tiles_with_saturation_rule": 0,
+ "model_cloud_tile_share": 0.4193019263780278,
+ "tiles_sza_above_60_1": 8771,
+ "A": {
+  "accuracy": 0.7372496662216288,
+  "baseline_risk": 0.23517070379553695,
+  "oracle_risk": 0.07843791722296395,
+  "room_points": 15.6732786572573,
+  "room_ci": [
+   14.271290291817657,
+   16.965477779897007
+  ],
+  "conf_gate_risk": 0.23412168605760064,
+  "n_accepted": 20972,
+  "n_accepted_wrong": 4932,
+  "accepted_wrong_false_cloud": 3764,
+  "accepted_wrong_missed_cloud": 1168,
+  "false_cloud_share": 0.7631792376317924,
+  "accepted_wrong_sza_above_60_1": 1463,
+  "false_cloud_thin_share_at_least_half": 1472
+ },
+ "B": {
+  "accuracy": 0.7740225061987411,
+  "baseline_risk": 0.19206561129124544,
+  "oracle_risk": 0.03247186725157353,
+  "room_points": 15.95937440396719,
+  "room_ci": [
+   14.819640473011637,
+   16.94175567423231
+  ],
+  "conf_gate_risk": 0.19025367156208273,
+  "n_accepted": 20972,
+  "n_accepted_wrong": 4028,
+  "accepted_wrong_false_cloud": 2224,
+  "accepted_wrong_missed_cloud": 1804,
+  "false_cloud_share": 0.5521350546176763,
+  "accepted_wrong_sza_above_60_1": 1218,
+  "false_cloud_thin_share_at_least_half": 0
+ },
+ "room_A_minus_B": -0.2860957467098899,
+ "outcome": "open"
+}

@@ -1,0 +1,330 @@
+{
+ "freeze_sha256": "8bfde43607cfdadc6c38fe1317264df054e85477898412d3ee68a18d0aeaecf7",
+ "n_cloud_calls_textured": 36617,
+ "n_saturation_flags": 0,
+ "settings": {
+  "cloudsen_A": {
+   "n_tiles": 80850,
+   "n_groups": 330,
+   "arms": {
+    "confidence": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 16235,
+     "risk": 0.25100494743351887,
+     "n_accepted_cloud_calls": 29961,
+     "false_cloud": 13074,
+     "missed_cloud": 3161,
+     "correct_cloud": 16887,
+     "correct_clear": 31558
+    },
+    "ensemble": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 16276,
+     "risk": 0.2516388373531231,
+     "n_accepted_cloud_calls": 29986,
+     "false_cloud": 13057,
+     "missed_cloud": 3219,
+     "correct_cloud": 16929,
+     "correct_clear": 31475
+    },
+    "zero-label": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 12333,
+     "risk": 0.19067717996289424,
+     "n_accepted_cloud_calls": 23832,
+     "false_cloud": 8828,
+     "missed_cloud": 3505,
+     "correct_cloud": 15004,
+     "correct_clear": 37343
+    },
+    "veto-zl": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 8473,
+     "risk": 0.1309987631416203,
+     "n_accepted_cloud_calls": 20827,
+     "false_cloud": 4699,
+     "missed_cloud": 3774,
+     "correct_cloud": 16128,
+     "correct_clear": 40079,
+     "flags": {
+      "n_flagged": 14595,
+      "share_of_tiles": 0.18051948051948052,
+      "exceeds_20_percent": false,
+      "flagged_wrong": 13520,
+      "flagged_correct": 1075
+     }
+    },
+    "texture-conf": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 8101,
+     "risk": 0.1252473716759431,
+     "n_accepted_cloud_calls": 20447,
+     "false_cloud": 4307,
+     "missed_cloud": 3794,
+     "correct_cloud": 16140,
+     "correct_clear": 40439
+    },
+    "matched-control": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 11673,
+     "risk": 0.1804730983302412,
+     "n_accepted_cloud_calls": 20447,
+     "false_cloud": 7879,
+     "missed_cloud": 3794,
+     "correct_cloud": 12568,
+     "correct_clear": 40439
+    }
+   },
+   "comparisons": {
+    "texture-conf vs confidence": {
+     "gain_points": 12.575757575757576,
+     "gain_ci": [
+      11.791782622139765,
+      13.2220547309833
+     ]
+    },
+    "texture-conf vs ensemble": {
+     "gain_points": 12.639146567717999,
+     "gain_ci": [
+      11.819689239332098,
+      13.293174087816942
+     ]
+    },
+    "texture-conf vs zero-label": {
+     "gain_points": 6.542980828695113,
+     "gain_ci": [
+      5.613790970933829,
+      7.337700989486705
+     ],
+     "wrong_dropped": 5501,
+     "wrong_refilled": 1269,
+     "correct_dropped": 690,
+     "correct_refilled": 4922
+    },
+    "texture-conf vs matched-control": {
+     "gain_points": 5.522572665429809,
+     "gain_ci": [
+      4.506686765615337,
+      6.439587198515771
+     ]
+    },
+    "texture-conf vs veto-zl": {
+     "gain_points": 0.5751391465677186,
+     "gain_ci": [
+      -0.012407235621522612,
+      1.2493815708101408
+     ]
+    },
+    "veto-zl vs confidence": {
+     "gain_points": 12.000618429189858,
+     "gain_ci": [
+      10.865607606679033,
+      12.843266852195422
+     ]
+    },
+    "veto-zl vs ensemble": {
+     "gain_points": 12.06400742115028,
+     "gain_ci": [
+      10.96451762523191,
+      12.923701298701298
+     ]
+    },
+    "veto-zl vs zero-label": {
+     "gain_points": 5.9678416821273945,
+     "gain_ci": [
+      5.007537105751391,
+      6.80902133580705
+     ],
+     "wrong_dropped": 5647,
+     "wrong_refilled": 1787,
+     "correct_dropped": 696,
+     "correct_refilled": 4556
+    },
+    "zero-label vs confidence": {
+     "gain_points": 6.032776747062463,
+     "gain_ci": [
+      5.256609461966605,
+      6.773384353741496
+     ]
+    },
+    "zero-label vs ensemble": {
+     "gain_points": 6.096165739022885,
+     "gain_ci": [
+      5.3106060606060606,
+      6.813620902906619
+     ]
+    },
+    "matched-control vs confidence": {
+     "gain_points": 7.053184910327767,
+     "gain_ci": [
+      6.032738095238094,
+      7.977775200989487
+     ]
+    }
+   }
+  },
+  "cloudsen_B": {
+   "n_tiles": 80850,
+   "n_groups": 330,
+   "arms": {
+    "confidence": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 14084,
+     "risk": 0.21774891774891775,
+     "n_accepted_cloud_calls": 29961,
+     "false_cloud": 9352,
+     "missed_cloud": 4732,
+     "correct_cloud": 20609,
+     "correct_clear": 29987
+    },
+    "ensemble": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 14218,
+     "risk": 0.21982065553494126,
+     "n_accepted_cloud_calls": 29986,
+     "false_cloud": 9477,
+     "missed_cloud": 4741,
+     "correct_cloud": 20509,
+     "correct_clear": 29953
+    },
+    "zero-label": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 12567,
+     "risk": 0.19429499072356216,
+     "n_accepted_cloud_calls": 23832,
+     "false_cloud": 6731,
+     "missed_cloud": 5836,
+     "correct_cloud": 17101,
+     "correct_clear": 35012
+    },
+    "veto-zl": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 9742,
+     "risk": 0.15061842918985777,
+     "n_accepted_cloud_calls": 20827,
+     "false_cloud": 3232,
+     "missed_cloud": 6510,
+     "correct_cloud": 17595,
+     "correct_clear": 37343,
+     "flags": {
+      "n_flagged": 14595,
+      "share_of_tiles": 0.18051948051948052,
+      "exceeds_20_percent": false,
+      "flagged_wrong": 10280,
+      "flagged_correct": 4315
+     }
+    },
+    "texture-conf": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 9556,
+     "risk": 0.14774273345701916,
+     "n_accepted_cloud_calls": 20447,
+     "false_cloud": 2977,
+     "missed_cloud": 6579,
+     "correct_cloud": 17470,
+     "correct_clear": 37654
+    },
+    "matched-control": {
+     "n_accepted": 64680,
+     "n_accepted_wrong": 12389,
+     "risk": 0.19154298082869511,
+     "n_accepted_cloud_calls": 20447,
+     "false_cloud": 5810,
+     "missed_cloud": 6579,
+     "correct_cloud": 14637,
+     "correct_clear": 37654
+    }
+   },
+   "comparisons": {
+    "texture-conf vs confidence": {
+     "gain_points": 7.000618429189859,
+     "gain_ci": [
+      6.011131725417441,
+      7.888334879406306
+     ]
+    },
+    "texture-conf vs ensemble": {
+     "gain_points": 7.2077922077922105,
+     "gain_ci": [
+      6.211966604823749,
+      8.075371057513916
+     ]
+    },
+    "texture-conf vs zero-label": {
+     "gain_points": 4.655225726654299,
+     "gain_ci": [
+      3.806393011750153,
+      5.412878787878789
+     ],
+     "wrong_dropped": 4388,
+     "wrong_refilled": 1377,
+     "correct_dropped": 1803,
+     "correct_refilled": 4814
+    },
+    "texture-conf vs matched-control": {
+     "gain_points": 4.380024737167595,
+     "gain_ci": [
+      3.3686611008039606,
+      5.290816326530611
+     ]
+    },
+    "texture-conf vs veto-zl": {
+     "gain_points": 0.2875695732838607,
+     "gain_ci": [
+      -0.06648113790970751,
+      0.6756338899196052
+     ]
+    },
+    "veto-zl vs confidence": {
+     "gain_points": 6.713048855905998,
+     "gain_ci": [
+      5.576685219542362,
+      7.71958101422387
+     ]
+    },
+    "veto-zl vs ensemble": {
+     "gain_points": 6.92022263450835,
+     "gain_ci": [
+      5.768398268398267,
+      7.917439703153989
+     ]
+    },
+    "veto-zl vs zero-label": {
+     "gain_points": 4.367656153370439,
+     "gain_ci": [
+      3.4368429189857777,
+      5.221281694495981
+     ],
+     "wrong_dropped": 4492,
+     "wrong_refilled": 1667,
+     "correct_dropped": 1851,
+     "correct_refilled": 4676
+    },
+    "zero-label vs confidence": {
+     "gain_points": 2.345392702535559,
+     "gain_ci": [
+      1.6171150278293134,
+      3.0875077303648717
+     ]
+    },
+    "zero-label vs ensemble": {
+     "gain_points": 2.5525664811379105,
+     "gain_ci": [
+      1.8243274582560283,
+      3.260745207173779
+     ]
+    },
+    "matched-control vs confidence": {
+     "gain_points": 2.6205936920222634,
+     "gain_ci": [
+      1.5057204700061833,
+      3.7183828076685215
+     ]
+    }
+   }
+  }
+ },
+ "decision": "row 3, increment holds: texture-conf is the recommended configuration, reported as a pre-frozen supplementary evaluation on a used test set; the zero-label rule is the key comparison arm",
+ "mechanism_wording": "texture improves which cloud calls are accepted, beyond accepting fewer cloud calls",
+ "scope": "untouched CloudSEN12+ train-509-high ROIs (330 sampled); first scoring of any arm on them"
+}

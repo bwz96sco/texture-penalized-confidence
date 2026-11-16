@@ -1,0 +1,51 @@
+{
+ "magic_ok": true,
+ "header_length": 39776,
+ "n_patches": 535,
+ "file_bytes": 1461831762,
+ "size_ok": true,
+ "header_length_matches_metadata": true,
+ "table_matches_metadata": true,
+ "url": "https://huggingface.co/datasets/isp-uv-es/CloudSEN12Plus/resolve/2bcd2e9d1a16f8986e8eed6df893f92cd5bca155/validation/validation_509_high.mlstac",
+ "revision": "2bcd2e9d1a16f8986e8eed6df893f92cd5bca155",
+ "sha256": "2643cd93b3bd3b1f0948c78dd5d20c88f1a481c960d607085033dce807afc73e",
+ "first_patch": {
+  "id": "ROI_0009__20190513T180929_20190513T181344_T12SWH",
+  "count": 15,
+  "dtypes": [
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16",
+   "uint16"
+  ],
+  "shape": [
+   512,
+   512
+  ],
+  "driver": "JP2OpenJPEG",
+  "label_values": [
+   0
+  ],
+  "padding_side_row_col_start": [
+   0,
+   0
+  ],
+  "padding_zero": true,
+  "b01_b04_dn_range": [
+   0,
+   3785
+  ]
+ },
+ "passes": true
+}

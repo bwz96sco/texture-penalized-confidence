@@ -1,0 +1,639 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-15T09:18:15.563292+00:00",
+  "source_units": [
+    {
+      "split": "train",
+      "unit": "LC80050152014172LGN00_12",
+      "tiles": 225,
+      "cloud_tiles": 3
+    },
+    {
+      "split": "train",
+      "unit": "LC80050562014076LGN00_33",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC80150242014146LGN00_23",
+      "tiles": 225,
+      "cloud_tiles": 34
+    },
+    {
+      "split": "train",
+      "unit": "LC80200462014213LGN00_11",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC80250402013245LGN00_45",
+      "tiles": 225,
+      "cloud_tiles": 35
+    },
+    {
+      "split": "train",
+      "unit": "LC80250482014072LGN00_18",
+      "tiles": 225,
+      "cloud_tiles": 13
+    },
+    {
+      "split": "train",
+      "unit": "LC80310432013207LGN00_11",
+      "tiles": 225,
+      "cloud_tiles": 8
+    },
+    {
+      "split": "train",
+      "unit": "LC80320282013182LGN00_30",
+      "tiles": 225,
+      "cloud_tiles": 98
+    },
+    {
+      "split": "train",
+      "unit": "LC80340412013132LGN01_20",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC80380362013144LGN00_26",
+      "tiles": 225,
+      "cloud_tiles": 120
+    },
+    {
+      "split": "train",
+      "unit": "LC80390152013215LGN00_17",
+      "tiles": 225,
+      "cloud_tiles": 173
+    },
+    {
+      "split": "train",
+      "unit": "LC80470252014226LGN00_11",
+      "tiles": 225,
+      "cloud_tiles": 122
+    },
+    {
+      "split": "train",
+      "unit": "LC80500162014247LGN00_21",
+      "tiles": 225,
+      "cloud_tiles": 91
+    },
+    {
+      "split": "train",
+      "unit": "LC80630462013191LGN00_11",
+      "tiles": 225,
+      "cloud_tiles": 68
+    },
+    {
+      "split": "train",
+      "unit": "LC80750722014022LGN00_16",
+      "tiles": 225,
+      "cloud_tiles": 14
+    },
+    {
+      "split": "train",
+      "unit": "LC80760912014013LGN00_25",
+      "tiles": 225,
+      "cloud_tiles": 45
+    },
+    {
+      "split": "train",
+      "unit": "LC80800142014169LGN00_05",
+      "tiles": 225,
+      "cloud_tiles": 18
+    },
+    {
+      "split": "train",
+      "unit": "LC80900832013220LGN00_28",
+      "tiles": 225,
+      "cloud_tiles": 34
+    },
+    {
+      "split": "train",
+      "unit": "LC80910892014006LGN00_44",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC80940802014092LGN00_17",
+      "tiles": 225,
+      "cloud_tiles": 3
+    },
+    {
+      "split": "train",
+      "unit": "LC81020642014004LGN00_32",
+      "tiles": 225,
+      "cloud_tiles": 19
+    },
+    {
+      "split": "train",
+      "unit": "LC81060772014064LGN00_17",
+      "tiles": 225,
+      "cloud_tiles": 11
+    },
+    {
+      "split": "train",
+      "unit": "LC81140272013261LGN00_32",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC81140622013277LGN00_23",
+      "tiles": 225,
+      "cloud_tiles": 132
+    },
+    {
+      "split": "train",
+      "unit": "LC81180602014116LGN00_29",
+      "tiles": 225,
+      "cloud_tiles": 20
+    },
+    {
+      "split": "train",
+      "unit": "LC81220242014240LGN00_25",
+      "tiles": 225,
+      "cloud_tiles": 94
+    },
+    {
+      "split": "train",
+      "unit": "LC81230362013276LGN00_19",
+      "tiles": 225,
+      "cloud_tiles": 28
+    },
+    {
+      "split": "train",
+      "unit": "LC81250542014181LGN00_39",
+      "tiles": 225,
+      "cloud_tiles": 139
+    },
+    {
+      "split": "train",
+      "unit": "LC81250622013178LGN01_08",
+      "tiles": 225,
+      "cloud_tiles": 35
+    },
+    {
+      "split": "train",
+      "unit": "LC81280422014074LGN00_16",
+      "tiles": 225,
+      "cloud_tiles": 10
+    },
+    {
+      "split": "train",
+      "unit": "LC81360162013159LGN00_18",
+      "tiles": 225,
+      "cloud_tiles": 69
+    },
+    {
+      "split": "train",
+      "unit": "LC81360162014210LGN00_32",
+      "tiles": 225,
+      "cloud_tiles": 19
+    },
+    {
+      "split": "train",
+      "unit": "LC81370452014073LGN00_23",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC81400372014158LGN00_27",
+      "tiles": 225,
+      "cloud_tiles": 16
+    },
+    {
+      "split": "train",
+      "unit": "LC81490372013362LGN00_39",
+      "tiles": 225,
+      "cloud_tiles": 66
+    },
+    {
+      "split": "train",
+      "unit": "LC81500412014244LGN00_18",
+      "tiles": 225,
+      "cloud_tiles": 10
+    },
+    {
+      "split": "train",
+      "unit": "LC81500442013145LGN00_16",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC81550232014135LGN00_26",
+      "tiles": 225,
+      "cloud_tiles": 5
+    },
+    {
+      "split": "train",
+      "unit": "LC81610712013222LGN00_09",
+      "tiles": 225,
+      "cloud_tiles": 53
+    },
+    {
+      "split": "train",
+      "unit": "LC81670512014091LGN00_32",
+      "tiles": 225,
+      "cloud_tiles": 30
+    },
+    {
+      "split": "train",
+      "unit": "LC81700252014080LGN00_27",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC81700802014016LGN00_23",
+      "tiles": 225,
+      "cloud_tiles": 26
+    },
+    {
+      "split": "train",
+      "unit": "LC81720642014334LGN00_25",
+      "tiles": 225,
+      "cloud_tiles": 33
+    },
+    {
+      "split": "train",
+      "unit": "LC81730542014277LGN00_23",
+      "tiles": 225,
+      "cloud_tiles": 48
+    },
+    {
+      "split": "train",
+      "unit": "LC81730742014085LGN00_11",
+      "tiles": 225,
+      "cloud_tiles": 23
+    },
+    {
+      "split": "train",
+      "unit": "LC81750832014067LGN00_24",
+      "tiles": 225,
+      "cloud_tiles": 3
+    },
+    {
+      "split": "train",
+      "unit": "LC81800332013147LGN00_33",
+      "tiles": 225,
+      "cloud_tiles": 2
+    },
+    {
+      "split": "train",
+      "unit": "LC81810592013218LGN00_05",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC81830242014091LGN00_16",
+      "tiles": 225,
+      "cloud_tiles": 155
+    },
+    {
+      "split": "train",
+      "unit": "LC81830642014203LGN00_16",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC81860432014224LGN00_19",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC81950282013156LGN00_33",
+      "tiles": 225,
+      "cloud_tiles": 21
+    },
+    {
+      "split": "train",
+      "unit": "LC81950502014223LGN00_22",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "train",
+      "unit": "LC82010332014105LGN00_34",
+      "tiles": 225,
+      "cloud_tiles": 42
+    },
+    {
+      "split": "train",
+      "unit": "LC82151102013360LGN00_26",
+      "tiles": 225,
+      "cloud_tiles": 9
+    },
+    {
+      "split": "train",
+      "unit": "LC82160662014146LGN00_14",
+      "tiles": 225,
+      "cloud_tiles": 4
+    },
+    {
+      "split": "train",
+      "unit": "LC82170152014249LGN00_38",
+      "tiles": 225,
+      "cloud_tiles": 8
+    },
+    {
+      "split": "train",
+      "unit": "LC82210662014229LGN00_18",
+      "tiles": 225,
+      "cloud_tiles": 21
+    },
+    {
+      "split": "train",
+      "unit": "LC82290562014157LGN00_24",
+      "tiles": 225,
+      "cloud_tiles": 32
+    },
+    {
+      "split": "train",
+      "unit": "LC82290872014013LGN00_20",
+      "tiles": 225,
+      "cloud_tiles": 44
+    },
+    {
+      "split": "train",
+      "unit": "LC82310942013344LGN00_17",
+      "tiles": 225,
+      "cloud_tiles": 34
+    },
+    {
+      "split": "train",
+      "unit": "LC82320772014306LGN00_38",
+      "tiles": 225,
+      "cloud_tiles": 27
+    },
+    {
+      "split": "dev",
+      "unit": "LC80190352014078LGN01_26",
+      "tiles": 225,
+      "cloud_tiles": 108
+    },
+    {
+      "split": "dev",
+      "unit": "LC80430352013243LGN00_31",
+      "tiles": 225,
+      "cloud_tiles": 23
+    },
+    {
+      "split": "dev",
+      "unit": "LC80750962014038LGN00_14",
+      "tiles": 225,
+      "cloud_tiles": 183
+    },
+    {
+      "split": "dev",
+      "unit": "LC80980732014008LGN00_31",
+      "tiles": 225,
+      "cloud_tiles": 7
+    },
+    {
+      "split": "dev",
+      "unit": "LC81110822013288LGN00_11",
+      "tiles": 225,
+      "cloud_tiles": 0
+    },
+    {
+      "split": "dev",
+      "unit": "LC81130672013142LGN01_26",
+      "tiles": 225,
+      "cloud_tiles": 3
+    },
+    {
+      "split": "dev",
+      "unit": "LC81330492014141LGN00_26",
+      "tiles": 225,
+      "cloud_tiles": 128
+    },
+    {
+      "split": "dev",
+      "unit": "LC81340422013257LGN00_16",
+      "tiles": 225,
+      "cloud_tiles": 44
+    },
+    {
+      "split": "dev",
+      "unit": "LC81370412014105LGN00_30",
+      "tiles": 225,
+      "cloud_tiles": 114
+    },
+    {
+      "split": "dev",
+      "unit": "LC81460442013293LGN00_38",
+      "tiles": 225,
+      "cloud_tiles": 16
+    },
+    {
+      "split": "dev",
+      "unit": "LC81480352013195LGN00_32",
+      "tiles": 225,
+      "cloud_tiles": 14
+    },
+    {
+      "split": "dev",
+      "unit": "LC81540102013205LGN00_18",
+      "tiles": 225,
+      "cloud_tiles": 36
+    },
+    {
+      "split": "dev",
+      "unit": "LC81580442014140LGN00_21",
+      "tiles": 225,
+      "cloud_tiles": 7
+    },
+    {
+      "split": "dev",
+      "unit": "LC81660432014100LGN00_35",
+      "tiles": 225,
+      "cloud_tiles": 67
+    },
+    {
+      "split": "dev",
+      "unit": "LC82260732013357LGN00_32",
+      "tiles": 225,
+      "cloud_tiles": 24
+    },
+    {
+      "split": "dev",
+      "unit": "LC82290782013282LGN00_12",
+      "tiles": 225,
+      "cloud_tiles": 15
+    }
+  ],
+  "train_tiles": 13950,
+  "train_cloud_tiles": 2167,
+  "dev_tiles": 3600,
+  "dev_cloud_calls": 1034,
+  "dev_cloud_call_errors": 341,
+  "source_io_seconds": 0.8983193365857005,
+  "train_histogram_seconds": 3.8078810018487275,
+  "prototype_fit_seconds": 0.0674600419588387,
+  "dev_feature_times": {
+    "real_texture_seconds": 0.5874778334982693,
+    "permutation_texture_seconds": 1.887582709081471,
+    "additional_scale_prototype_seconds": 0.6496875835582614
+  },
+  "mapping_fit_seconds": 0.017583040986210108,
+  "total_seconds": 8.623067415785044,
+  "peak_rss_mb": 672.359375,
+  "prototype_report": {
+    "1": {
+      "cloud": {
+        "n_tiles": 2167,
+        "iterations": 21,
+        "inertia": 2.2312437584273637,
+        "cluster_sizes": [
+          684,
+          231,
+          220,
+          1032
+        ]
+      },
+      "clear": {
+        "n_tiles": 11783,
+        "iterations": 37,
+        "inertia": 11.538073673289164,
+        "cluster_sizes": [
+          4658,
+          1997,
+          921,
+          4207
+        ]
+      }
+    },
+    "3": {
+      "cloud": {
+        "n_tiles": 2167,
+        "iterations": 21,
+        "inertia": 3.4050382227899982,
+        "cluster_sizes": [
+          1028,
+          364,
+          160,
+          615
+        ]
+      },
+      "clear": {
+        "n_tiles": 11783,
+        "iterations": 46,
+        "inertia": 16.061773353143597,
+        "cluster_sizes": [
+          4366,
+          2741,
+          4014,
+          662
+        ]
+      }
+    },
+    "9": {
+      "cloud": {
+        "n_tiles": 2167,
+        "iterations": 26,
+        "inertia": 11.174054965448141,
+        "cluster_sizes": [
+          542,
+          126,
+          922,
+          577
+        ]
+      },
+      "clear": {
+        "n_tiles": 11783,
+        "iterations": 17,
+        "inertia": 41.599874841055694,
+        "cluster_sizes": [
+          4243,
+          359,
+          1853,
+          5328
+        ]
+      }
+    }
+  },
+  "benchmarks": {
+    "primary_feature_and_map": {
+      "tiles": 32,
+      "seconds": [
+        0.01947495900094509,
+        0.01920420816168189,
+        0.01952575007453561
+      ],
+      "median_ms_per_tile": 0.6085924687795341
+    },
+    "matched_q_feature_and_map": {
+      "tiles": 32,
+      "seconds": [
+        0.0034591248258948326,
+        0.0034199999645352364,
+        0.003503083251416683
+      ],
+      "median_ms_per_tile": 0.10809765080921352
+    },
+    "multi_scale_feature_and_map": {
+      "tiles": 32,
+      "seconds": [
+        0.010389584116637707,
+        0.009973333217203617,
+        0.010263290721923113
+      ],
+      "median_ms_per_tile": 0.3207278350600973
+    },
+    "real_texture_pair": {
+      "tiles": 32,
+      "seconds": [
+        0.005242083687335253,
+        0.005199207924306393,
+        0.005333874840289354
+      ],
+      "median_ms_per_tile": 0.16381511522922665
+    },
+    "main_mlp_forward": {
+      "tiles": 32,
+      "seconds": [
+        0.005068874917924404,
+        0.005463290959596634,
+        0.0047583747655153275
+      ],
+      "median_ms_per_tile": 0.15840234118513763
+    },
+    "five_mlp_forward": {
+      "tiles": 32,
+      "seconds": [
+        0.025224959012120962,
+        0.025122917257249355,
+        0.025830000173300505
+      ],
+      "median_ms_per_tile": 0.7882799691287801
+    },
+    "spatial_cnn_forward": {
+      "tiles": 32,
+      "seconds": [
+        0.04590137489140034,
+        0.04606016678735614,
+        0.04462087480351329
+      ],
+      "median_ms_per_tile": 1.4344179653562605
+    }
+  },
+  "code_commit": "51db855fe7d66820f555c2716cd7a171f51785bd",
+  "threads": 8,
+  "versions": {
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "torch": "2.14.1"
+  },
+  "target_images_read": 0,
+  "new_cnn_training": false,
+  "source_model_inference_purpose": "8-tile invariance and 32-tile warmed cost benchmarks only"
+}

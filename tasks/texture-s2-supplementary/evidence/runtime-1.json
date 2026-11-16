@@ -1,0 +1,68 @@
+{
+ "utc": "2026-10-19T04:11:52.416959+00:00",
+ "command": [
+  "uv",
+  "run",
+  "--no-sync",
+  "python",
+  "-I",
+  "experiments/texture-s2-supplementary/runtime.py",
+  "tasks/texture-s2-supplementary",
+  "1"
+ ],
+ "code_commit": "5ab4e24f063c2d5cf25124b9b30a0e02486586f5",
+ "python": "3.12.9",
+ "numpy": "2.5.4",
+ "scipy": "1.18.1",
+ "total_seconds": 58.607971124816686,
+ "peak_rss_mib": 655.140625,
+ "repetition": "1",
+ "freeze_sha256": "f9014a759b799260e4f67bddc5b94edc7329f48c277ae6b818ec7b821df27d59",
+ "operational_seconds": 49.65729651367292,
+ "operational_peak_rss_mib": 613.1875,
+ "setup_seconds": 0.004139082971960306,
+ "model_load_seconds": 0.010119959246367216,
+ "pipeline": {
+  "io_seconds": 36.002005964983255,
+  "preprocess_seconds": 1.130459085572511,
+  "inference_seconds": 8.402046476025134,
+  "saturation_seconds": 0.30932530853897333,
+  "texture_seconds": 3.7225127471610904,
+  "mapping_seconds": 0.018731709104031324,
+  "collection_seconds": 0.032237863168120384,
+  "decision_seconds": 0.011543749831616879,
+  "total_seconds": 49.6430348479189
+ },
+ "reference_all_tile_texture_seconds": 8.68352231895551,
+ "n_patches": 825,
+ "n_tiles": 40425,
+ "n_cloud_calls_textured": 16449,
+ "n_saturation_flags": 0,
+ "n_accepted": 32340,
+ "cloud_call_texture_equals_all_tile_reference": true,
+ "parity_with_retained_features": {
+  "conf": 0.0,
+  "pred_cloud_frac": 0.0
+ },
+ "hardware": {
+  "cpu": "Apple M2 Max",
+  "logical_cpus": 12,
+  "memory_bytes": 68719476736,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "device": "cpu",
+  "torch_threads": 8,
+  "blas_threads": 1,
+  "numerical_processes": 1
+ },
+ "torch": "2.14.1",
+ "raw_labels_read": false,
+ "label_band_requested": false,
+ "imagery_bands_read": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "reserved_hypso_access": false,
+ "new_download_bytes": 0
+}

@@ -1,0 +1,21 @@
+{
+  "quantile": 0.95,
+  "quantile_method": "linear",
+  "n_tiles": 3600,
+  "n_units": 16,
+  "n_cloud": 789,
+  "n_clear": 2811,
+  "cloud_radius_95": 0.0581925519553001,
+  "clear_radius_95": 0.05667079647627011,
+  "cloud_distance_quantiles": [
+    0.003556513347171172,
+    0.009048504307171357,
+    0.0581925519553001
+  ],
+  "clear_distance_quantiles": [
+    0.003927541132625947,
+    0.013320391260946269,
+    0.05667079647627011
+  ],
+  "interpretation": "source-dev class-distance compatibility, not target confidence"
+}

@@ -1,0 +1,21 @@
+"""Fixed configuration of the premise test (contract revision 1). Written to freeze.json."""
+SPLIT_SEED = 20261013          # SPARCS subscene split, 62 training / 16 development
+N_TRAIN = 62
+MEMBERS = [0, 1, 2, 3, 4]       # seed 0 is the main model; 1-4 complete selective-ood/v1
+HIDDEN = 64
+LR = 1e-3
+BATCH = 8192
+EPOCHS = 10
+PER_CLASS_PER_EPOCH = 1_000_000  # class-balanced draw with replacement each epoch
+COVERAGE = 0.8
+CONF_THRESHOLD = 0.70           # conf-gate-0.70/v1
+CLEAN_FALSE_REJECT = 0.05       # fault-detection threshold on source development tiles
+CLOUD_DECISION = 0.5            # downlink iff predicted cloud fraction < 0.5
+BOOTSTRAP_DRAWS = 2000
+BOOTSTRAP_SEED = 7
+FAULT_SEED = 11
+TRANSIENT_PER_TILE = 4
+PERSISTENT_PER_CAPTURE = 25
+MIN_HARMFUL = 300               # below this, injections double once
+RATES = [3.3e-7, 1e-5, 1e-3]
+MODEL_FLOOR = 0.85              # main model's decision accuracy on source development tiles
